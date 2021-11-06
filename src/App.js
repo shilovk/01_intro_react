@@ -1,12 +1,12 @@
 import React from "react";
 
-import Hello from "./Hello";
+import Author from "./Author";
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <Hello />
+        <Author author={this.props.author} book={this.props.book} />
       </div>
     )
   }
